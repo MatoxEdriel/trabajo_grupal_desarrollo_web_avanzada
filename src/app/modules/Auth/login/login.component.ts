@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   onAccept(event: Event): void {
     event.preventDefault();
-    alert('Credentials will be validated.');
+    alert('Se procederá a validar las credenciales de acceso');
   }
 }
